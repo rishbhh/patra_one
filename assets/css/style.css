@@ -5,8 +5,8 @@ body{
 .wrapper{
     width: 100%;
     margin: auto;
-    padding: 3% 7%;
-    height: 100vh;
+    padding: 4% 7%;
+    
 }
 .owl-carousel .owl-stage-outer {
     position: relative;
@@ -142,20 +142,94 @@ display: none;
     color: #000;
 }
    .tab-content {
-    padding: 20px;
-    background-color: #fff;
-    font-size: 17px;
-    text-align: center;
-    line-height: 25px;
-    margin-top: -7px;
-    border-radius: 0px;
+    
   }
    .tab-content h3 {
     font-size: 25px;
     letter-spacing: 1px;
     font-weight: 600;
     color: #1A1A1A;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #9a9a9a63;
+    text-align: left;
   }
 
 
-  
+  .arow{
+    padding: 0;
+    margin-top: 56px;
+    font-size: 15px;
+  }
+  .illus img{
+padding: 0 10px;
+width: 245px;
+  }
+  .illus p{
+    font-size: 16px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-align: center;
+  }
+.illus ul{
+  margin-top: 20px;
+    text-align: left;
+    list-style: none
+}
+.illus ul li{
+  padding: 5px 0px;
+  color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.main-c{
+  padding: 20px;
+  background-color: #fff;
+  font-size: 17px;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 20px;
+  border-radius: 0px;
+}
+.tab-row{
+  background: transparent linear-gradient(
+72deg
+, #007FFF 0%, #00A8FF 100%) 0% 0% no-repeat padding-box;
+    padding: 30px;
+    box-shadow: 5px 5px 10px #dae1e9;
+}
+.tab-row p{
+  margin-bottom: 0px;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.whit{
+  background: #fff;
+  box-shadow: 5px 5px 10px #DAE1E9;
+}
+.whit p{
+  color: #1a1a1a;
+}
+.fl{
+  display: flex;
+    justify-content: space-between;
+}
+.mt{
+  margin-top: 40px;
+}
+.fl span{
+  font-size: 14px;
+    margin-right: 9px;
+    padding: 20px 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #1A1A1A;
+}
+.p-d{
+  padding: 60px;
+}
