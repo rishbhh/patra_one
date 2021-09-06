@@ -554,6 +554,15 @@ padding: 4px 0px;
   padding: 0px;
   border: none;
 }
+.navbar-img span{
+  height:25px;
+  width:25px;
+  border-radius:25px;
+  background:#fff;
+  display:block;  
+  margin:20px auto;
+  transition:all .5s;
+  } 
 .pd{
   padding: 5px;
 }
