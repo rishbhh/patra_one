@@ -555,13 +555,14 @@ padding: 4px 0px;
   border: none;
 }
 .navbar-img span{
-  height:25px;
-  width:25px;
-  border-radius:25px;
-  background:#fff;
-  display:block;  
-  margin:20px auto;
-  transition:all .5s;
+  height: 6px;
+  width: 6px;
+  border-radius: 25px;
+  background: #b9b9b9;
+  display: block;
+  margin: 4px auto;
+  transition: all .5s;
+  margin-right: 20px;
   } 
 .pd{
   padding: 5px;
