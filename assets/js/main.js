@@ -44,3 +44,11 @@ $(".owl-item li").click(function(){
     });
 // header sec
 
+function valueChanged() {
+    if($('#cbox3').is(":checked"))   
+      $(".second").show(),
+      $(".fir").hide();
+    else
+    $(".second").hide(),
+    $(".fir").show();
+  };
