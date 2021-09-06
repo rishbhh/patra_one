@@ -222,12 +222,12 @@ width: 50%;
   background-repeat: no-repeat;
 }
 .main-c{
-  padding: 28px 13px;
+  padding: 10px 30px;
   background-color: #fff;
   font-size: 17px;
   text-align: center;
   line-height: 23px;
-  margin-top: 30px;
+  margin-top: 7px;
   border-radius: 0px;
 }
 .tab-row{
@@ -262,7 +262,7 @@ width: 50%;
   align-items: center;
     justify-content: space-between;
     padding: 0px 20px;
-    margin-top: 54px;
+    margin-bottom: 5px;
 }
 .mt{
   margin-top: 18px;
@@ -283,7 +283,7 @@ width: 50%;
   width: 32% !important;
 }
 .mtt{
-  margin-top: 10px;
+  margin-top: 7px;
 }
 
 
@@ -292,29 +292,44 @@ width: 50%;
   background: transparent linear-gradient(89deg, #007FFF 0%, #00A8FF 100%) 0% 0% no-repeat padding-box;
 box-shadow: 5px 5px 30px #007DFF14;
 border-radius: 5px;
-padding: 10px 0px;
+padding: 4px 0px;
 }
 .highlight p{
   margin-bottom: 0px;
   font-size: 8px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: #fff;
   font-weight: 600;
 }
 .fl2 .highlight{
   border-radius: 50px;
-  padding: 12px 17px;
+  padding: 2px 17px;
   border-radius: 50px;
 }
 .un-highlight{
   opacity: 0.3;
   filter: blur(5px);
 }
+.p-right{
+  padding-right: 0px;
+}
+.tab-div{
+  height: 7em;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.tab-div h3{
+  width: 100%;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  padding: 0px;
+}
 .box{
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 36% 36px;
+  padding:10px;
   border-radius: 30px;
 }
 .p-d{
@@ -327,8 +342,8 @@ padding: 10px 0px;
   border-radius: 50px;
 }
 .hg{
-  height: 11em;
-  border-radius: 30px;
+  height: 6.1em;
+  border-radius: 22px;
 }
 
 /* accord */
@@ -409,7 +424,7 @@ padding: 10px 0px;
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 36% 31px;
+  padding:10px;
   border-radius: 30px;
 }
 .highlight {
@@ -421,12 +436,11 @@ padding: 10px 0px;
   padding: 7px 0px;
 }
 .hg{
-  height: 11em;
+  height: 6.1em;
   border-radius: 30px;
 }
 
 .highlight p {
-
   line-height: 19px;
 }
 .ps {
