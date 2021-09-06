@@ -104,20 +104,21 @@ body{
   
 }
 
-.wrappers{
-  width: 58px;
-  height: 29px;
+.wrappers {
+  width: 35px;
+  height: 19px;
   position: absolute;
   float: left;
-  right: 175px;
+  right: 158px;
   top: 9px;
 }
-.wrapper3 span{
+.wrapper3 span {
   position: fixed;
   right: 60px;
   position: fixed;
-  right: 60px; 
-  font-weight:700;
+  right: 60px;
+  font-weight: 700;
+  font-size: 12px;
 }
 /* /////////////////////////////// */
 /* /////////////Style 3/////////// */
@@ -161,7 +162,7 @@ body{
 }
 
 #cbox3:checked ~ .label3:after {
-  left: calc(100% - 26px);
+  left: calc(100% - 17px);
   background-color: #ffffff;
   color: aliceblue;
 }
@@ -181,7 +182,7 @@ body{
 .wrapper{
     width: 100%;
     margin: auto;
-    padding: 1% 7%;
+    padding: 0% 7%;
     
 }
 
@@ -281,6 +282,9 @@ body{
   .owl-theme .owl-nav .disabled {
     opacity: .3;
 }
+.trans{
+  transition: .4s ease-in-out;
+}
    .item li.active h1 {
     background-color: transparent;
     color: #fff;
@@ -326,7 +330,7 @@ body{
 display: none;
   }
   .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
-    font-size: 51px;
+    font-size: 31px;
     color: #000;
 }
    .tab-content {
@@ -541,18 +545,21 @@ padding: 4px 0px;
   padding-right: 0px;
 }
 .tab-div{
-  height: 7em;
+  height: 7.3em;
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 17px 32px;
+    padding: 23px 32px;
 }
 .tab-div h3{
   width: 100%;
-  font-size: 1em;
+  font-size: 14px;
   text-transform: uppercase;
   padding: 0px;
   border: none;
+  margin-bottom: 0px;
+  margin-top: 0;
+  line-height: 21px;
 }
 .navbar-img span{
   height: 6px;
@@ -568,7 +575,7 @@ padding: 4px 0px;
   padding: 5px;
 }
 .p0{
-  padding: 7px 32px;
+  padding: 16px 32px;
 }
 .box{
   width: 100%;
@@ -752,6 +759,9 @@ button.owl-prev {
   text-transform: uppercase;
   padding: 0px;
   border: none;
+  margin-bottom: 0px;
+  margin-top: 0;
+  line-height: 21px;
 }
 .highlight p {
   line-height: 16px;

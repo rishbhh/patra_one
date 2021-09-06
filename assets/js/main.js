@@ -47,8 +47,10 @@ $(".owl-item li").click(function(){
 function valueChanged() {
     if($('#cbox3').is(":checked"))   
       $(".second").show(),
-      $(".fir").hide();
+      $(".fir").hide(),
+       gsap.fromTo('.second',{opacity: 0.3,}, { opacity:1 ,duration: 0.5, ease: Power1.easeIn, stagger:0.2, },"-=0.7");
     else
     $(".second").hide(),
     $(".fir").show();
+    gsap.fromTo('.fir',{opacity: 0.3,}, { opacity:1 ,duration: 0.5, ease: Power1.easeIn, stagger:0.2, },"-=0.7");
   };
