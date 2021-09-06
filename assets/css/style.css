@@ -9,6 +9,9 @@ body{
     padding: 3% 7%;
     
 }
+.height{
+  height: 100% !important;
+}
 .owl-carousel .owl-stage-outer {
     position: relative;
     overflow-y: visible;
@@ -22,11 +25,11 @@ body{
    button.owl-prev {
     position: absolute;
     left: -35px;
-    top: 1%;
+    top: 2%;
     transform: translateY(-2%);
     background-color: rgb(255 255 255) !important;
     width: 34px;
-    height: 92px;
+    height: 70px;
     margin: 0 !important;
     border-radius: 0px !important;
     color: #000 !important;
@@ -44,7 +47,7 @@ body{
     transform: translateY(-2%);
     background-color: rgb(255 255 255) !important;
     width: 34px;
-    height: 92px;
+    height: 70px;
     margin: 0 !important;
     border-radius: 0px !important;
     color: #000 !important;
@@ -305,6 +308,7 @@ padding: 4px 0px;
   border-radius: 50px;
   padding: 2px 17px;
   border-radius: 50px;
+  width: 24%;
 }
 .un-highlight{
   opacity: 0.3;
@@ -318,12 +322,17 @@ padding: 4px 0px;
     display: flex;
     align-items: center;
     width: 100%;
+    padding: 17px 32px;
 }
 .tab-div h3{
   width: 100%;
-  font-size: 1.2em;
+  font-size: 1.01em;
   text-transform: uppercase;
   padding: 0px;
+  border: none;
+}
+.pd{
+  padding: 10px;
 }
 .box{
   width: 100%;

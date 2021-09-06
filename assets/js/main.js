@@ -39,7 +39,7 @@ var li =  $(".owl-item li ");
 $(".owl-item li").click(function(){
     li.removeClass('active');
     
-     gsap.fromTo('.blur',{filter: "blur(5px)",opacity: 0.3,}, {filter: "blur(0px)", opacity:1 ,duration: 2, ease: Power1.easeIn, stagger:0.2, },"-=0.4");
+    //  gsap.fromTo('.blur',{filter: "blur(5px)",opacity: 0.3,}, {filter: "blur(0px)", opacity:1 ,duration: 2, ease: Power1.easeIn, stagger:0.2, },"-=0.4");
     
     });
 // header sec
