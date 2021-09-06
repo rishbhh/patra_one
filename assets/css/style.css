@@ -419,10 +419,10 @@ width: 50%;
 .tab-row p{
   margin-bottom: 0px;
   color: #fff;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-size: 10px;
   font-weight: bold;
-  line-height: 16px;
+  line-height: 12px;
 }
 .whit{
   background: #fff;
@@ -549,13 +549,16 @@ padding: 4px 0px;
 }
 .tab-div h3{
   width: 100%;
-  font-size: 1.01em;
+  font-size: 1em;
   text-transform: uppercase;
   padding: 0px;
   border: none;
 }
 .pd{
-  padding: 10px;
+  padding: 5px;
+}
+.p0{
+  padding: 7px 32px;
 }
 .box{
   width: 100%;
