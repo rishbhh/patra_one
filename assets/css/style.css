@@ -1970,7 +1970,7 @@ padding: 4px 0px;
   transform: rotate(90deg);
 }
 }
-@media screen and (max-width:1367px) {
+@media screen and (max-width:1366px) {
   body{
     background: #EEF1F7 ;
     font-family: 'Montserrat', sans-serif;
@@ -2240,12 +2240,12 @@ padding: 4px 0px;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 70px;
+    height: 57px;
     color: #0000002b;
     text-transform: uppercase;
     flex-wrap: wrap;
     text-align: center;
-    font-size: 14px;
+    font-size: 11px;
     padding: 0px 16px;
     text-decoration: none;
     font-weight: 700;
@@ -2264,7 +2264,7 @@ padding: 4px 0px;
     color: #fff;
     width: 98%;
     border-radius: 1px 42px 0px 0px;
-    height: 69px;
+    height: 62px;
     position: absolute;
     z-index: 1;
     transition: cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -2292,7 +2292,7 @@ padding: 4px 0px;
     color: #fff;
     width: 98%;
     border-radius: 1px 42px 0px 0px;
-    height: 75px;
+    height: 62px;
     position: absolute;
     top: -6px;
     box-shadow: 10px 10px 20px #007dff29;
@@ -2496,7 +2496,7 @@ width: 50%;
   background: transparent linear-gradient(89deg, #007FFF 0%, #00A8FF 100%) 0% 0% no-repeat padding-box;
 box-shadow: 5px 5px 30px #007DFF14;
 border-radius: 5px;
-padding: 4px 0px;
+padding: 0px 0px;
 }
 .highlight p{
   margin-bottom: 0px;
@@ -2507,7 +2507,7 @@ padding: 4px 0px;
 }
 .fl2 .highlight{
   border-radius: 50px;
-  padding: 2px 17px;
+  padding: 1px 17px;
   border-radius: 50px;
   width: 24%;
 }
@@ -2523,7 +2523,7 @@ padding: 4px 0px;
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 23px 32px;
+    padding: 15px 32px;
 }
 .tab-div h3{
   width: 100%;
