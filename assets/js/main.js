@@ -48,6 +48,7 @@ function valueChanged() {
     if($('#cbox3').is(":checked"))   
       $(".second").show(),
       $(".fir").hide(),
+    //   gsap.fromTo('.bar',2,{opacity: 0.3,width:0}, {width:"100%", opacity:1 ,duration: 0.5, ease: Power1.easeIn, stagger:0.2, },"-=0.7"),
        gsap.fromTo('.second',{opacity: 0.3,}, { opacity:1 ,duration: 0.5, ease: Power1.easeIn, stagger:0.2, },"-=0.7");
     else
     $(".second").hide(),
